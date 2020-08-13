@@ -1,4 +1,3 @@
-import { Selector } from 'testcafe';
 import xpathSelector from '../../utils/element_by_xpath';
 import Data from '../../../data/constants';
 const { homePage: {title}, common: { buttonByName: button } } = Data.pageLocators;
