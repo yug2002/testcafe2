@@ -1,10 +1,15 @@
 import { Selector } from 'testcafe';
 import xpathSelector from '../../utils/element_by_xpath';
+import Data from '../../../data/constants';
+const { homePage: {title}, common: { buttonByName: button } } = Data.pageLocators;
 
 class HomePage {
-  public title() {
-    const xpath: string = `//h1/span`;
-    return xpathSelector(xpath);    
+  public title() {    
+    return xpathSelector(title);    
+  }
+
+  public buttonByName(name: string) {
+    return xpathSelector(button(name));
   }
 }
 

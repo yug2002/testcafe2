@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./src/test/*.ts"
+    "test": "testcafe edge ./src/test/*.ts"
   },
   "author": "",
   "license": "ISC",
