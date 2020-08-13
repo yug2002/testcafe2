@@ -1,0 +1,17 @@
+{
+  "browsers": "chrome",
+  "src": "./src/test/*.ts",
+  "screenshots" : {
+    "path": "./screenshots/",
+    "takeOnFails": true,
+    "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+  },
+  "debugMode": false,
+  "pageLoadTimeout": 10000,
+  "color": true,
+  "reporter": {
+    "name": "html",
+    "output": "./reports/index.html"
+  }
+  
+}

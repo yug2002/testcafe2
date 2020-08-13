@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe edge ./src/test/*.ts"
+    "test": "testcafe"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.6"
   }
 }

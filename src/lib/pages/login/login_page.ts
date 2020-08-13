@@ -1,9 +1,10 @@
 import xpathSelector from '../../utils/element_by_xpath';
 import Data from '../../../data/constants';
+import BasePage from '../base/base_page';
 const { common: {inputByType: input}, loginPage: { personalAccount, errorElement }} = Data.pageLocators;
 
 
-class LoginPage {
+export default class LoginPage extends BasePage {
 
   inputByType(type: string) : Selector {
     return xpathSelector(input(type));
@@ -18,4 +19,4 @@ class LoginPage {
   }  
 }
 
-export default new LoginPage();
+//export default new LoginPage();
