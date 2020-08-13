@@ -1,0 +1,14 @@
+{
+  "name": "testcafe2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./src/test/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
